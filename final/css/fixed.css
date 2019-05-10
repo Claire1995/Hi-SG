@@ -1,0 +1,72 @@
+
+<link href="https://fonts.googleapis.com/css?family=Cinzel|PT+Sans" rel="stylesheet">
+@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+  footer{
+    color: #848484;
+    text-align: center; /*text align to parents!*/
+    font-size: 10px;
+    letter-spacing: 5px;
+    position:fixed;
+    bottom:10px;
+    width:100%;
+  }
+
+nav{
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  width: 50%;
+  margin-left: -25%;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  position: relative;
+  color: white;
+  width: 20%;
+  float: left;
+  text-align: center;
+  padding: 5px 0;
+} 
+
+nav ul li a:link, nav ul li a:visited, nav ul li a:active {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  font-weight: bold;
+  transform: scale(0.9);
+}
+
+nav ul li:hover ul{
+  display: block;
+}
+
+/*drop down*/
+nav ul li ul{
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: -250px;
+  width: 500px;
+}
+
+nav ul li ul li a:link, nav ul li ul li a:visited, nav ul li ul li a:active {
+  font-weight: normal;
+}
+
+nav ul li ul li a:hover {
+  font-weight: bold;
+}
+
+.slogan{ 
+  text-align: left; 
+  margin-left: 80px;
+  font-size:30px; 
+  color: white; 
+}
+

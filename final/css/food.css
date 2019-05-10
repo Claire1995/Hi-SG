@@ -1,0 +1,45 @@
+.wrapper{
+	display: flex;
+	width: 90%;
+	margin-top: 100px;
+	margin-left: 100px;	
+}
+.asian, .western, .dessert{
+	background: rgba(0, 0, 0, 0.4);
+	width: 30%;
+	height: 400px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.btn1, .btn2, .btn3{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Cinzel', serif;
+}
+.box1, .box2, .box3{
+	width: 220px;
+	height: 220px;
+	margin-top: 10px;
+	margin-left: 60px;
+}
+.asian img, .western img, .dessert img{
+	width: 100%;
+	border-radius: 50%;
+}
+
+.asian img , .western img, .dessert img{
+	 transition: transform .2s; /* Animation */
+}
+.asian img:hover, .western img:hover, .dessert img:hover {
+	transform: scale(1.05);
+}
+.text1, .text2, .text3{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
